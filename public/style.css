@@ -1,0 +1,176 @@
+  .video-player{
+    position: absolute;
+    width:930px;
+    height: 720px;
+    border: 3px solid rgb(4, 0, 255);
+    left: 240px;
+    top:40px;
+    border-radius: 10px;
+
+  }
+  .search{
+    display: inline-block;
+    padding-left: 20px;
+    position: absolute;
+    left: 1220px;
+  }
+  .roomid{
+    position: absolute;
+    border-radius: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:18px ;font-weight: bold;
+    outline: none;
+    
+  }
+  #room{
+    border: 4px solid blue;
+    margin: 0px;
+    border-radius: 5px;}
+  #roomid{
+      border: 4px solid blue;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size:18px ;font-weight: bold;
+      outline: none;
+      margin: 0px;
+      border-radius: 5px;
+  }
+  #roombutton{
+    border: 4px solid blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:18px ;font-weight: bold;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #roombutton:hover{
+    background-color: blue;
+  }
+  .video{
+    width: 230px;
+    height: 200px;
+    position: absolute;
+    top: 40px;
+    border-radius: 10px;
+    
+  }
+  body{
+  background:black;
+  margin: 0px;
+  overflow: hidden;
+  }
+  #link{
+    border-radius: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+    border: 4px solid blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:18px ;font-weight: bold;
+    outline: none;
+  }
+  #searchbutton{
+    border-radius: 10px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    text-align: center;
+    border: 4px solid blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:18px ;font-weight: bold;
+  }
+  #searchbutton:hover{
+    background-color: antiquewhite;
+    cursor:pointer;
+  }
+
+  #chat{
+    border: 3px solid blue;
+    width:350px;
+    height: 720px;
+    top : 40px;
+    left : 1180px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: bisque;
+  }
+  #name{
+    position: absolute;
+    background-color: burlywood;
+    left: 0px;
+    top: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    padding-left: 101px;
+    padding-right: 100px;
+  }
+  #chatbox{
+    position: absolute;
+    background-color: azure;
+    left:0px;
+    top: 100px;
+    width: 350px;
+    height: 580px;
+    border-radius: 10px;
+
+  }
+  #chatbox-1{
+    position: absolute;
+    background-color: rgb(5, 186, 186);
+    left:0px;
+    top: 680px;
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+  }
+  #message{
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    left:2px;
+    top: 3px;
+    width: 310px;
+    height: 32px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px rgb(5, 186, 186);
+    text-align: left;
+    
+  }
+  #send{
+    position: absolute;
+    background-color: white;
+    border-radius: 10px;
+    border: 0px;
+    left: 320px;
+    top:8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    outline: none;
+  }
+  #send:hover{
+    background-color: blue;
+    cursor: pointer;
+  }
+  #messagesent{
+    position: relative;
+    top: 200px;
+  }
+.message{ 
+  position: relative;
+  border: 3px solid ;
+  border-radius: 10px;
+  word-wrap: break-word;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  width: 230px;
+  margin-bottom: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgb(164, 233, 226);
+}
+::-webkit-scrollbar { 
+  width: 0px; 
+} 
