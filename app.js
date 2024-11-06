@@ -23,12 +23,14 @@ app.get('/', (req, res) => {
 io.on('connection', (socket) => {
   socket.on('roomid',(userid)=>{
     rooms[userid] = userid
+	 io.emit('rooms',rooms)
   })
   socket.on('roommember',({roomid,userid})=>{
     if(!roommembers[roomid]){
       roommembers[roomid]= []
     }
     roommembers[roomid].push(userid)
+	  io.emit('roommembers',roommembers)
   })
   socket.on('messagebyuser', ({message,sender,mroom_id})=>{
     io.emit('messageemit', ({message,sender,mroom_id}))
@@ -40,10 +42,6 @@ io.on('connection', (socket) => {
       io.emit('back_videoState',currentTime)
   })
 });
-setInterval(()=>{
-   io.emit('rooms',rooms)
-   io.emit('roommembers', roommembers)
-},15)
 
 const PORT = process.env.PORT || 3000;
 httpServer.listen(PORT, () => console.log(`App is listening on ${PORT}`));
